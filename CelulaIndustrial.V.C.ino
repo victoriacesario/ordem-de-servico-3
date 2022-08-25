@@ -16,9 +16,9 @@ String definirTipoDeItem();
 bool verificarDisponibilidadeDoArmazem(String tipo_item);
 void transportarItemArmazem(String tipo_item);
 void setup() {
-pinMode(CAPACITIVO, INPUT);
+pinMode(CAPACITIVO, OUTPUT);
 pinMode(INDUTIVO, INPUT);
-pinMode(OTICO, OUTPUT);
+pinMode(OTICO, INPUT);
 pinMode(ESTEIRA, OUTPUT);
 pinMode(ATUADOR1, OUTPUT);
 pinMode(ATUADOR2, OUTPUT);
